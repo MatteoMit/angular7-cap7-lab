@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { ParentComponent } from './parent.component';
 import { ChildComponent } from './child.component';
+import { RandomComponent } from './random.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, ParentComponent, ChildComponent ],
+  declarations: [ AppComponent, HelloComponent, ParentComponent, ChildComponent, RandomComponent],
   bootstrap:    [ ParentComponent ]
 })
 
