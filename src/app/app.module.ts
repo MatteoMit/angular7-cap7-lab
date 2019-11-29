@@ -12,4 +12,6 @@ import { ChildComponent } from './child.component';
   declarations: [ AppComponent, HelloComponent, ParentComponent, ChildComponent ],
   bootstrap:    [ ParentComponent ]
 })
-export class AppComponent { }
+
+export class AppModule {}
+ { }
