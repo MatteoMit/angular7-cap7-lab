@@ -10,6 +10,6 @@ import { ChildComponent } from './child.component';
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
   declarations: [ AppComponent, HelloComponent, ParentComponent, ChildComponent ],
-  bootstrap:    [ AppComponent ]
+  bootstrap:    [ ParentComponent ]
 })
-export class AppModule { }
+export class AppComponent { }
