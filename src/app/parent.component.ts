@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+
 @Component({
   selector: "app-root",
   template: `
@@ -8,7 +9,8 @@ import { Component } from "@angular/core";
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
     </app-child>
-  `
+  `,
+  styles: []
 })
 export class ParentComponent {
   title = "Esempio ng-content";
