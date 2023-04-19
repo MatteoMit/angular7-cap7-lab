@@ -3,7 +3,7 @@ import { Component } from "@angular/core";
   selector: "app-random",
   template: `
     <div>
-      <span>{{ random }}</span>
+      <span>{{ random }} </span>
       <button (click)="onClick()">Genera numero casuale</button>
     </div>
   `,
